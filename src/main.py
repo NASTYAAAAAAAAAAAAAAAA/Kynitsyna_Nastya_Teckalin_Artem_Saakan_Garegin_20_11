@@ -71,7 +71,7 @@ status = Text(load_error or 'Выберите планету',
               position=(-.86, -.40), scale=.85)
 panel = Entity(parent=camera.ui, enabled=False, position=(.53, .06))
 Entity(parent=panel, model='quad', scale=(.57, .70),
-       color=color.rgb(16, 28, 45), z=.1, collider='box')
+       color=color.rgba(16/255, 28/255, 45/255, 0.95), z=.1, collider='box')
 portrait = Entity(parent=panel, model='quad', scale=(.18, .12),
                   position=(0, .25))
 card = Text(parent=panel, position=(-.25, .16), scale=.85)
