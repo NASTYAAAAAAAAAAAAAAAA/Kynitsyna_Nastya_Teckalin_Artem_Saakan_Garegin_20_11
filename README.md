@@ -28,8 +28,9 @@
    - Windows PowerShell: `python -m venv .venv` и `.venv\Scripts\Activate.ps1`
    - macOS / Linux: `python3 -m venv .venv` и `source .venv/bin/activate`
 2. Установите зависимости: `python -m pip install -r requirements.txt`
-3. откройте папку в редакторе кода
-4. Запустите приложение: `python src/main.py`
+3. скопируйте содержимое архива в любую папку (рекомендация, в пути исключить кирилицу)
+4. откройте папку в редакторе кода
+5. Запустите приложение: `python src/main.py`
 
 ## Управление
 - **ЛКМ по планете или кнопке слева** — выбрать планету и открыть карточку.
